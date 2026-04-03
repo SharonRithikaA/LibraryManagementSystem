@@ -67,55 +67,6 @@ LibraryManagementSystem/
 
 ---
 
-## 🚀 How to Run in VS Code
-
-### Prerequisites
-- Install **Java JDK 17+**: https://adoptium.net/
-- Install **VS Code**: https://code.visualstudio.com/
-- Install the **Extension Pack for Java** (by Microsoft) from VS Code Extensions
-
-### Step-by-step
-
-**1. Open the project**
-```
-File → Open Folder → select LibraryManagementSystem/
-```
-
-**2. Compile from the terminal** (Ctrl + ` to open terminal)
-```bash
-cd LibraryManagementSystem
-
-# Create output directory
-mkdir -p out
-
-# Compile all Java files
-javac -d out -sourcepath src src/exception/*.java src/model/*.java src/util/*.java src/service/*.java src/controller/*.java src/LibraryApp.java
-```
-
-**3. Run the program**
-```bash
-java -cp out LibraryApp
-```
-
-> ⚠️ **Important**: Run from the `LibraryManagementSystem/` folder so the `/data` directory is created in the right place.
-
-### Using VS Code's Run Button (Alternative)
-1. Open `LibraryApp.java`
-2. Click the ▶ **Run** button that appears above `main()`
-3. VS Code compiles and runs it automatically
-
----
-
-## 🔑 Default Login
-
-| Role | Email | Password |
-|------|-------|----------|
-| Admin | admin@library.com | admin123 |
-
-Members can self-register from the main menu.
-
----
-
 ## 📋 Feature Walkthrough
 
 ### Admin can:
